@@ -1,0 +1,213 @@
+/* cssssssssssssssssssssss */
+body {
+    background-image: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2655.jpg?w=900&t=st=1669717797~exp=1669718397~hmac=b496d3786186711c06815010397236a4b5b9c24af83da56b6b00d533f0d0f3e3');
+	background-size: 100%;
+}
+#wrapper {
+  background: silver;   
+  width: 1000px;
+  margin:0 auto;
+  HEIGHT: 630PX;
+    clear: both;
+	outline: 0.5px black solid;
+  
+}
+    #header {
+    background-image:url('https://damion.club/uploads/posts/2022-03/1648008238_1-damion-club-p-rozovie-oblaka-oboi-oboi-na-rabochii-stol-1.jpg');
+	background-size: 100%;
+  width: 1000px;
+  margin:0 auto;
+  height: 120px;
+  text-align: center;
+  outline: 0.5px #ff6be1;
+    }
+#Zagolovok {
+  padding-top: 30px;
+}
+#content {
+    float: right;
+    background: #fff;
+  width: 780px;
+  margin:0 auto;
+  height: 450px;
+  padding: 10px;
+	  outline: 0.5px black solid;
+	  text-indent: 30px;
+    text-align: justify;
+
+}
+a:visited {
+  color: #fc6acc;
+}
+#nav a:hover {
+  font-size: 105%;
+  text-decoration: none;
+}
+#nav {
+    float: left;
+    background: #fcc0e8;
+  width: 180px;
+  margin:0 auto;
+  height: 450px;
+  padding: 10px;
+  font-size: 10pt;
+    outline: 0.5px black solid;
+    text-align: justify;
+}
+#nav a {
+  text-decoration: none;
+
+}
+#footer {
+    background: #fcc0e8;
+  width: 1000px;
+  margin:0 auto;
+  height: 40px;
+  padding: 5 px;
+    clear: both;
+  outline: 0.5px black solid;
+  text-align: justify;
+}
+#content-nav-wrapper {
+	background: #fff;
+	width: 1000px;
+	height: 470px;
+	margin: 0;
+}
+.italic{
+	font-style: italic;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+.Cambria{
+	font-style: Cambria;
+	font-size:25px;
+    color:#fff!important;
+    text-shadow: 1px 1px 1px #000;
+
+}
+.Kursiv{
+	font-style: italic;
+  letter-spacing: 3px;
+}
+.otstup{
+  font-size: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#knopki{
+  margin-top: 25%;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chlen2{
+  height: 30px;
+  width: 150px;
+  background-color: #fcc0e8;
+  margin-left: 100px;
+  margin-right: 100px;
+  cursor: pointer;
+}
+#content2 {
+  background-image: url("https://i.pinimg.com/originals/30/b2/4e/30b24ed88b58880720b9282cc674f1de.jpg");
+  background-size: 800px 550px;
+      float: right;
+  width: 780px;
+  margin:0 auto;
+  height: 450px;
+  padding: 10px;
+    outline: 0.5px black solid;
+    text-indent: 30px;
+    text-align: justify;
+}
+#root{
+  margin: 500px;
+  font-size: 20px;
+}
+#login{
+  width: 250px;
+  height: 20px;
+}
+#password{
+  width: 250px;
+  height: 20px;
+}
+.chlen3 {
+  width: 130px;
+  height: 130px;
+  cursor:pointer;
+}
+
+.chlen3:hover {
+  width: 150px;
+  height: 150px;
+}
+#firstimgg {
+  width: 120px;
+  height: 120px;
+  display: grid;
+  grid-template-columns: repeat(4, 175px);
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#imgg > p {
+  width: 175px;
+  height: 30px;
+  text-align:start;
+  padding-right: 5px;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+  overflow: hidden; 
+  font-size: 10pt;
+}
+
+#content6 {
+  float: right;
+  background: #fff;
+  width: 780px;
+  margin:0 auto;
+  height: 450px;
+  padding: 10px;
+  outline: 0.5px black solid;
+  text-align: justify;
+}
+.plus {
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background-color: #fcc0e8;
+  box-shadow: 0 -3px rgb(255, 147, 255) inset;
+  transition: 0.2s;
+} 
+.plus:hover { 
+  background-color: rgb(255, 147, 255); 
+}
+.plus:active {
+  background-color: rgb(255, 114, 255);
+  box-shadow: 0 3px rgb(255, 114, 255) inset;
+}
+.minus {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: #fcc0e8;
+  box-shadow: 0 -3px rgb(255, 147, 255) inset;
+  transition: 0.2s;
+} 
+.minus:hover { 
+  background-color: rgb(255, 147, 255); 
+}
+.minus:active {
+  background-color: rgb(255, 114, 255);
+  box-shadow: 0 3px rgb(255, 114, 255) inset;
+}
